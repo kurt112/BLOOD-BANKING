@@ -1,0 +1,17 @@
+.Post-Content{
+    display: flex
+}
+.blood-receive-pagination{
+    /* margin: auto; */
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+ }
+ .blood-receive-pagination ul li a {
+     color: white;
+     /* height: 100%; */
+     /* padding: 10px; */
+     /* background-color: pink; */
+ }

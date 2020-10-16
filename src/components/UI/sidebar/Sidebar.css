@@ -1,0 +1,38 @@
+.Sidebar {
+    width: 260px;
+    height: 100%;
+    background-color: #B72B39;;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-y: auto;
+}
+@media screen and (max-width: 700px) {
+   
+}
+
+.Sidebar > ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    /* margin-left: 5px; */
+    /* margin-right: 6px; */
+}
+
+.Sidebar li {
+    width: 100%;
+    margin-bottom: 7px;
+    text-align: left;
+    display: inline-block;
+}
+
+.Sidebar a {
+    text-decoration: none;
+    display: block;
+    color:white !important;
+    padding: 15px 0px 15px 10px;
+    font-family: 'Segoe UI Semibold', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Sidebar a.active{
+    background-color: #CB3141 !important;
+}

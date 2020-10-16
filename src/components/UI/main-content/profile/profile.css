@@ -1,0 +1,98 @@
+.Profile{
+    margin: 50px;
+    background-color: white;
+    height: 450px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+@media only screen and (max-width: 600px) {
+    .Profile{
+        margin: 50px 10px;
+        /* background-color: pink; */
+    }
+}
+
+.Profile .row{
+    height: 100%;
+}
+
+.Profile .left{
+    /* background-color: red; */
+    height: inherit;
+    text-align: center;
+    border-right: 1px solid #CB3141;
+}
+
+.Profile .right h4{
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    color: #CB3141;
+    font-weight: 500;
+}
+
+.edit-button{
+ position: absolute;
+}
+
+.picture_container{
+    text-align: center;
+    height: 100px;
+    /* background-color: pink; */
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.picture_container img{
+    height: 100%;
+    width: 40%;
+    border: 2px solid  grey;
+}
+.Profile h5{
+    color: black;
+}
+
+.Profile .right{
+    background-color: white;
+    /* margin-top: 10px; */
+    margin-bottom: 20px;
+}
+
+.Profile hr{
+    border: none;
+    border-top: 1px solid #CB3141;
+    background-color: wheat;
+}
+
+.Profile .fa{
+  padding: 15px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}

@@ -1,0 +1,19 @@
+.login{
+    width: 100%;
+    color: white;
+    margin: auto;
+    /* background-color: pink; */
+}
+.login-container{
+    display: flex;
+    justify-content: center;
+}
+.login-text{
+    width: 800px;
+    margin-right: 100px; 
+    text-align: center;
+    text-shadow: 3px 3px black;
+}
+
+
+

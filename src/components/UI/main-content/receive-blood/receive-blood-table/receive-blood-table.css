@@ -1,0 +1,25 @@
+.ReceiveBloodTable{
+    background-color: white;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    overflow: auto;
+    height: 500px; 
+    margin-bottom: 20px;
+     margin: 0 20px;
+    margin-top: 20px;
+    /* background-color: powderblue; */
+}
+
+.ReceiveBloodTable table th{
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background: #fff;
+}
+
+.waves-success{
+    background-color: 	rgb(92, 184, 92);
+}
+
+/* table{
+} */

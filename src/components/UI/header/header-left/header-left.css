@@ -1,0 +1,15 @@
+.Left{
+    display: none;
+    margin: auto;
+    margin-left: 10px;
+    
+}
+@media screen and (max-width: 700px) {
+    .Left {
+        display: flex !important;
+    }
+}
+
+h1{
+    margin: 0;
+}
